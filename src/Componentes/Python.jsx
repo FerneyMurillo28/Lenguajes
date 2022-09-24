@@ -1,5 +1,4 @@
 import React from "react";
-import python from './Imagenes/Python.png'
 import { Info } from "./Info";
 
 const Python=()=>{
@@ -9,8 +8,8 @@ const Python=()=>{
                 {
                     Info.map((informacion)=>(
                         <div>
-                            <img src={informacion.img1}/>
-                            <h3>{informacion.python}</h3>
+                            <img src={informacion.img2}/>
+                            <h3 className="texto">{informacion.python}</h3>
                         </div>
                     ))
                 }
