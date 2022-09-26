@@ -36,7 +36,7 @@ const Java=()=>{
                     Info.map((informacion)=>(
                         <div className="mouse">
                             <div className={style} onClick={uno}>
-                                <img src={informacion.img1} onFocus={uno}/>
+                                <img src={informacion.img1}/>
                                 <h3 className="texto">{informacion.java}</h3>
                             </div>
                             <div className={stilo} onClick={dos}>
