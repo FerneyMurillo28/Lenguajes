@@ -34,7 +34,7 @@ const Python=()=>{
             <div className="card">
                 {
                     Info.map((informacion)=>(
-                        <div>
+                        <div className="mouse">
                             <div className={style} onClick={uno}>
                                 <img src={informacion.img2}/>
                                 <h3 className="texto">{informacion.python}</h3>

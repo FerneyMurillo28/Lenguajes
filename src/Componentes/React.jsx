@@ -34,7 +34,7 @@ const Reacte=()=>{
             <div className="card">
                 {
                     Info.map((informacion)=>(
-                        <div>
+                        <div className="mouse">
                             <div className={style} onClick={uno}>
                                 <img src={informacion.img4}/>
                                 <h3 className="texto">{informacion.react}</h3>

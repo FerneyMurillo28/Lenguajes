@@ -34,7 +34,7 @@ const Perl=()=>{
             <div className="card">
                 {
                     Info.map((informacion)=>(
-                        <div>
+                        <div className="mouse">
                             <div className={style} onClick={uno}>
                                 <img src={informacion.img3}/>
                                 <h3 className="texto">{informacion.perl}</h3>
