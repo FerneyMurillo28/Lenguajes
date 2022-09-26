@@ -6,12 +6,12 @@ import Reacte from "./React";
 
 const Cartas=()=>{
     return(
-        <>
+        <div className="fondo">
             <Python/>
             <Java/>
             <Perl/>
             <Reacte/>
-        </>
+        </div>
     )
 }
 

@@ -3,14 +3,15 @@
     place-content: center;
 }
 
+.fondo{background-color: black;}
+
 .card{
-    border:3px solid #000;
+    border:3px solid rgb(155, 2, 2);
     display: flex;
     width: 300px;
     margin: 10px 70px;
     border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.5);
-    
+    box-shadow: 3px 3px 3px 3px rgb(255, 255, 255);
 }
 
 .texto{
@@ -18,9 +19,23 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 4px;
     text-align: center;
+	color: white;
+	text-shadow: 5px 5px rgba(255, 0, 0, 0.5);
 }   
 
 img{
     width: 50%;
     padding: 5px;
+}
+
+.cont2{display:none}
+.cont{display: block;}
+
+.carta{display:none}
+.carta2{
+		display: block;
+		margin: 3px;
+		padding: 3px;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		color: white;	
 }
